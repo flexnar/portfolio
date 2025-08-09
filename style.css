@@ -15,29 +15,17 @@ body {
 /* HEADER */
 .hero {
     height: 100vh;
-    background: url('img/img1.jpeg') center/cover no-repeat;
+    background: url('img/header-bg.jpg') center/cover no-repeat;
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 .overlay {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.5);
-    z-index: 1;
-}
-.hero-text {
-    position: relative;
-    z-index: 2;
-}
-.hero-text h1 {
-    font-size: 4rem;
-    color: orange;
-}
-.hero-text p {
-    font-size: 1.5rem;
+    background: rgba(0,0,0,0.6);
 }
 
 nav {
