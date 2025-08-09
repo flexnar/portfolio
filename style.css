@@ -15,7 +15,7 @@ body {
 /* HEADER */
 .hero {
     height: 100vh;
-    background: url('img/header-bg.jpg') center/cover no-repeat;
+    background: url('img1.jpeg') center/cover no-repeat;
     position: relative;
     display: flex;
     flex-direction: column;
