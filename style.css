@@ -115,12 +115,14 @@ nav ul li a:hover {
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
+    grid-template-columns: 1fr;
 }
 
 .gallery img {
-    width: 300px;
+    width: 100px;
     border-radius: 10px;
     transition: transform 0.3s;
+    display: block;
 }
 
 .gallery img:hover {
